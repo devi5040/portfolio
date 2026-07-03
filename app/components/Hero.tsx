@@ -8,7 +8,7 @@ export const Hero = () => {
     <div className="px-10 py-18 grid grid-cols-1 lg:grid-cols-2">
       <div className="space-y-12 ">
         <div className="bg-primary/30 border border-primary/10 w-1/2 p-1 justify-center flex rounded-full">
-          <span className="text-primary font-geist text-sm">
+          <span className="text-primary font-jetbrains text-sm">
             AVAILABLE FOR NEW OPPORTUNITIES
           </span>
         </div>
