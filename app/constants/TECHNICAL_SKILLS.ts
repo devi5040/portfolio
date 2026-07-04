@@ -29,12 +29,12 @@ export const TECHNICAL_SKILLS: TechnicalSkills[] = [
     ],
   },
   {
-    title: 'AI / Conversational Systems',
+    title: 'AI/NLP',
     icon: Bot,
     subskills: [
       'Azure/OpenAI API',
-      'Amazon Lex',
       'NLP',
+      'Amazon Lex',
       'IBM Watson',
       'Chatbot Development',
     ],
@@ -43,24 +43,17 @@ export const TECHNICAL_SKILLS: TechnicalSkills[] = [
     title: 'Voice AI / Telephony',
     icon: PhoneCall,
     subskills: [
-      'RetellAI',
-      'ElevenLabs',
+      'Whisper',
       'Twilio',
-      'Whisper (STT)',
-      'Conversational Design',
+      'ElevenLabs',
+      'RetellAI',
       'Google STT and TTS',
     ],
   },
   {
     title: 'Frontend',
     icon: Layout,
-    subskills: [
-      'React.js',
-      'Bootstrap',
-      'React Native',
-      'Next.js',
-      'Tailwind CSS',
-    ],
+    subskills: ['React.js', 'React Native', 'Next.js', 'Tailwind CSS'],
   },
   {
     title: 'Databases and Storage',
@@ -75,6 +68,6 @@ export const TECHNICAL_SKILLS: TechnicalSkills[] = [
   {
     title: 'Devops/CI-CD',
     icon: GitBranch,
-    subskills: ['Git', 'GitHub', 'GitHub Actions', 'GitLab', 'Jenkins'],
+    subskills: ['Git', 'GitHub', 'Gitlab', 'GitHub Actions', 'Jenkins'],
   },
 ];

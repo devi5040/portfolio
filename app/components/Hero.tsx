@@ -31,7 +31,12 @@ export const Hero = () => {
         </div>
       </div>
       <div className="hidden justify-center items-center lg:flex">
-        <Image src={Deviprasad} width={240} alt="Image of deviprasad" />
+        <Image
+          src={Deviprasad}
+          width={240}
+          alt="Image of deviprasad"
+          loading="eager"
+        />
       </div>
     </div>
   );
