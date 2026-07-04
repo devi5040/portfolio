@@ -9,7 +9,11 @@ type BadgeInputType = {
 export const Badge = ({ title, destination }: BadgeInputType) => {
   return (
     <button className="px-4 py-2.5 bg-card-elevated hover:bg-card-hover shadow-sm border border-card text-[#e9e9e9] font-geist">
-      {destination ? <Link href={destination}>{title}</Link> : <p>{title}</p>}
+      {destination ? (
+        <Link href={destination}>{title}</Link>
+      ) : (
+        <p className="text-sm">{title}</p>
+      )}
     </button>
   );
 };

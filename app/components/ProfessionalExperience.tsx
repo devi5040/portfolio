@@ -17,7 +17,7 @@ export const ProfessionalExperience = () => {
         transition={{ duration: 0.6 }}
         className="text-center mb-16  space-y-10"
       >
-        <h2 className="text-4xl font-bold font-geist">Professional Journey</h2>
+        <h2 className="text-3xl font-bold font-geist">Professional Journey</h2>
         <div className="max-w-7xl mx-auto p-6">
           <div className="relative">
             <div className="absolute left-1/2 top-0 h-full w-0.5 bg-neutral -translate-x-1/2" />
