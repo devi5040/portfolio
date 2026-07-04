@@ -1,7 +1,6 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-
-@theme{
+@theme {
   --color-primary: #7c6cf6;
   --color-secondary: #2dd4bf;
   --color-tertiary: #b96f00;
@@ -11,10 +10,9 @@
   --color-card-elevated: #201f27;
   --color-card-hover: #2a2932;
   --color-btn-hover: #8b7df7;
-  
 }
 
-@theme inline{
+@theme inline {
   --font-jetbrains: var(--font-jetbrains-mono);
   --font-geist: var(--font-geist-mono);
 }
