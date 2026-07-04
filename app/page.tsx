@@ -1,4 +1,9 @@
-import { Header, Hero, ProfessionalExperience } from '@/app/components';
+import {
+  Header,
+  Hero,
+  ProfessionalExperience,
+  TechnicalExperience,
+} from '@/app/components';
 
 export default function Home() {
   return (
@@ -6,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <ProfessionalExperience />
+      <TechnicalExperience />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export const ProfessionalExperience = () => {
   const { scrollYProgress } = useScroll();
 
   return (
-    <section className="text-[#f6f6f6] py-20 px-10 flex flex-col justify-center items-center">
+    <section className="text-[#f6f6f6] px-10 flex flex-col justify-center items-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -18,7 +18,7 @@ export const ProfessionalExperience = () => {
         className="text-center mb-16  space-y-10"
       >
         <h2 className="text-4xl font-bold font-geist">Professional Journey</h2>
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto p-6">
           <div className="relative">
             <div className="absolute left-1/2 top-0 h-full w-0.5 bg-neutral -translate-x-1/2" />
             {PROFESSIONAL_EXPERIENCES.map((item, index) => (
