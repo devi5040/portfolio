@@ -9,7 +9,10 @@ export const ProfessionalExperience = () => {
   const { scrollYProgress } = useScroll();
 
   return (
-    <section className="text-[#f6f6f6] px-10 flex flex-col justify-center items-center">
+    <section
+      className="text-[#f6f6f6] px-10 flex flex-col justify-center items-center"
+      id="experience"
+    >
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

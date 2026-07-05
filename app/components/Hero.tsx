@@ -22,10 +22,16 @@ export const Hero = () => {
             code for global infrastructures.
           </p>
           <div className="flex justify-start items-center space-x-10">
-            <button className="px-4 py-2.5 bg-primary flex justify-center items-center space-x-4 font-mono text-[#f6f6f6] font-medium">
-              <p>Download Resume </p>
-              <Download />
-            </button>
+            <a
+              href="/resume/deviprasad-rai-resume.pdf"
+              download="Deviprasad.resume.pdf"
+              target="_blank"
+            >
+              <button className="px-4 py-2.5 bg-primary flex justify-center items-center space-x-4 font-mono cursor-pointer text-[#f6f6f6] font-medium">
+                <p>Download Resume </p>
+                <Download />
+              </button>
+            </a>
             <Badge title="View Case Studies" destination="/case-studies" />
           </div>
         </div>

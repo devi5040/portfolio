@@ -3,7 +3,10 @@ import { TechStackCard } from './ui/TechStackCard';
 
 export const TechnicalExperience = () => {
   return (
-    <section className="p-10 flex flex-col justify-center items-center max-w-full overflow-auto">
+    <section
+      className="p-10 flex flex-col justify-center items-center max-w-full overflow-auto"
+      id="skills"
+    >
       <h2 className="font-bold text-3xl font-geist text-[#f6f6f6] mb-10">
         Tech Armory
       </h2>

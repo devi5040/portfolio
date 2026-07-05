@@ -3,7 +3,10 @@ import { ProjectsCard } from './ui';
 
 export const Projects = () => {
   return (
-    <section className="p-10 bg-[#111116] border-b border-t border-[#19191D]">
+    <section
+      className="p-10 bg-[#111116] border-b border-t border-[#19191D]"
+      id="projects"
+    >
       <h2 className="font-bold text-3xl text-center font-geist text-[#e6e6e6] my-5">
         Featured Work
       </h2>
