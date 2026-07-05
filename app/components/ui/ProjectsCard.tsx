@@ -30,6 +30,7 @@ export const ProjectsCard = ({ project }: { project: ProjectsList }) => {
           <Link
             href={project.repo}
             className="mt-5 flex justify-start items-center text-primary"
+            target="_blank"
           >
             View More <ExternalLink className="ml-3" />
           </Link>
