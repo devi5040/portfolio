@@ -16,3 +16,12 @@
   --font-jetbrains: var(--font-jetbrains-mono);
   --font-geist: var(--font-geist-mono);
 }
+
+@utility scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
