@@ -1,4 +1,5 @@
 import {
+  Footer,
   Header,
   Hero,
   ProfessionalExperience,
@@ -14,6 +15,7 @@ export default function Home() {
       <ProfessionalExperience />
       <Projects />
       <TechnicalExperience />
+      <Footer />
     </div>
   );
 }

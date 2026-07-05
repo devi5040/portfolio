@@ -7,16 +7,16 @@ export const Header = () => {
   return (
     <div className="h-12 flex justify-between items-center p-10 border-b border-gray-800">
       <h2 className="text-primary text-2xl font-bold font-geist">
-        Deviprasad.dev
+        Deviprasad.Dev
       </h2>
-      <nav className="flex justify-center space-x-16 items-center w-1/3">
+      <nav className="flex justify-center space-x-16 items-center">
         <ul className="flex justify-center items-center space-x-10">
           {NAV_ITEMS.map((item) => (
             <li
               className={`text-neutral font-geist hover:text-btn-hover`}
               key={item.label}
             >
-              <Link href={`#${item.link}`}>{item.label}</Link>
+              <Link href={`/#${item.link}`}>{item.label}</Link>
             </li>
           ))}
         </ul>
