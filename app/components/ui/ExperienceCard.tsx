@@ -14,7 +14,7 @@ export const ExperienceCard = ({
 }: ExperienceCard) => {
   return (
     <div
-      className={`w-[45%] border border-primary rounded-xl p-6 ${index % 2 === 0 ? 'mr-auto' : 'ml-auto'} space-y-2 font-geist`}
+      className={`ml-5 mb-5 md:m-0 w-full md:w-[45%] border border-primary rounded-xl p-6 ${index % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'} space-y-2 font-geist`}
     >
       <h3 className="text-2xl font-bold text-left">{title}</h3>
       <p className="text-primary/60 text-sm mb-4 text-left">
