@@ -7,13 +7,13 @@ export const Hero = () => {
   return (
     <div className="px-10 py-18 grid grid-cols-1 lg:grid-cols-2">
       <div className="space-y-12 ">
-        <div className="bg-primary/30 border border-primary/10 w-1/2 p-1 justify-center flex rounded-full">
+        <div className="bg-primary/30 border border-primary/10 lg:w-1/2 p-1 justify-center flex rounded-full">
           <span className="text-primary font-jetbrains text-sm">
             AVAILABLE FOR NEW OPPORTUNITIES
           </span>
         </div>
         <div className="space-y-8 ">
-          <h1 className="font-bold text-4xl text-[#f6f6f6] font-mono">
+          <h1 className="font-bold text-3xl lg:text-4xl text-[#f6f6f6] font-mono">
             Building scalable <span>solutions</span> for complex problems.
           </h1>
           <p className="font-medium text-neutral font-mono text-justify text-lg">
@@ -21,7 +21,7 @@ export const Hero = () => {
             architecture, and performance optimization. Delivering high-impact
             code for global infrastructures.
           </p>
-          <div className="flex justify-start items-center space-x-10">
+          <div className="flex justify-start flex-col lg:flex-row items-center space-y-5 lg:space-y-0 lg:space-x-10">
             <a
               href="/resume/deviprasad-rai-resume.pdf"
               download="Deviprasad.resume.pdf"
