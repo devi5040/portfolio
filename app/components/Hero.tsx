@@ -21,7 +21,7 @@ export const Hero = () => {
             architecture, and performance optimization. Delivering high-impact
             code for global infrastructures.
           </p>
-          <div className="flex justify-start flex-col lg:flex-row items-center space-y-5 lg:space-y-0 lg:space-x-10">
+          <div className="flex justify-start flex-col md:flex-row items-center space-y-5 md:space-y-0 md:space-x-10">
             <a
               href="/resume/deviprasad-rai-resume.pdf"
               download="Deviprasad.resume.pdf"
