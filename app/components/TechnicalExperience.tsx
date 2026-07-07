@@ -10,7 +10,7 @@ export const TechnicalExperience = () => {
       <h2 className="font-bold text-3xl font-geist text-[#f6f6f6] mb-10">
         Tech Armory
       </h2>
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         {TECHNICAL_SKILLS.map((skill, index) => (
           <TechStackCard item={skill} key={index} />
         ))}
