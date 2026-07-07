@@ -6,7 +6,7 @@ import { ExternalLink } from 'lucide-react';
 
 export const ProjectsCard = ({ project }: { project: ProjectsList }) => {
   return (
-    <div className="min-w-1/3 w-full lg:min-w-0 lg:w-[31%] bg-card rounded-md shadow-md h-160 md:h-120 lg:h-135 lg:mr-5 mb-5 mr-5 p-5">
+    <div className="min-w-1/3 w-full lg:min-w-0 lg:w-[31%] bg-card rounded-md shadow-md h-155 md:h-120 lg:h-135 lg:mr-5 mb-5 mr-0 p-5">
       <div className="relative">
         <Image
           src={project.imagePath}

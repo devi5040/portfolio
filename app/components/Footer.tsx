@@ -3,8 +3,8 @@ import Link from 'next/link';
 export const Footer = () => {
   return (
     <section className="w-full h-50 flex flex-col justify-center items-center px-10 border-t border-[#19191D]">
-      <div className="flex justify-between items-center w-full">
-        <h2 className="font-bold text-2xl text-[#e9e9e9] font-geist">
+      <div className="flex flex-col md:flex-row justify-between items-center w-full">
+        <h2 className="font-bold text-2xl text-[#e9e9e9] font-geist mb-10 md:mb-0">
           Deviprasad.Dev
         </h2>
         <div className="space-x-10">
